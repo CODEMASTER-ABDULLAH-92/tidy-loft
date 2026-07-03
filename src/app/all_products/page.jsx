@@ -1,9 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useSearchParams } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FiFilter, FiX, FiChevronDown, FiChevronUp, FiGrid, FiList } from 'react-icons/fi';
+import { FiFilter, FiX, FiChevronDown } from 'react-icons/fi';
 import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
 import ProductCard from '../Components/Card';
@@ -40,7 +39,6 @@ const SAGE_DARK = '#5F7565';
 const CLAY = '#B97A56';
 
 export default function ProductsPage() {
-  const searchParams = useSearchParams();
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [selectedCategory, setSelectedCategory] = useState('all');
