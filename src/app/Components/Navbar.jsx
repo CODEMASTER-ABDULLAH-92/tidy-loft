@@ -166,15 +166,6 @@ export default function Navbar() {
               <Link href="/about" className="block py-3 text-gray-700 hover:text-[#7C9082] font-medium">
                 About
               </Link>
-              <Link href="/contact" className="block py-3 text-gray-700 hover:text-[#7C9082] font-medium">
-                Contact
-              </Link>
-              <Link 
-                href="/dashboard" 
-                className="block py-3 text-[#7C9082] hover:text-[#6B7E71] font-semibold"
-              >
-                Dashboard
-              </Link>
             </div>
           </motion.div>
         )}
