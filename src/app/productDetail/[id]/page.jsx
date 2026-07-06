@@ -308,7 +308,7 @@ export default function ProductDetailPage() {
                            shadow-lg hover:shadow-xl flex items-center justify-center space-x-2"
                 >
                   <FiShoppingBag size={24} />
-                  <span>Buy on Amazon</span>
+                  <span>Buy now</span>
                 </button>
                 <button
                   onClick={() => setIsLiked(!isLiked)}
