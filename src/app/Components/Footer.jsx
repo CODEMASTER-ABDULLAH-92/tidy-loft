@@ -58,8 +58,8 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Categories</h3>
             <ul className="space-y-2">
-              {categories.map((category) => (
-                <li key={category.path}>
+              {categories.map((category, index) => (
+                <li key={index}>
                   <Link
                     href={category.path}
                     className="text-gray-400 hover:text-white transition-colors text-sm flex items-center group"
