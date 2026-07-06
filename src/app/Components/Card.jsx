@@ -32,7 +32,7 @@ export default function ProductCard({ product, index = 0 }) {
       onMouseLeave={() => setIsHovered(false)}
       className="group"
     >
-      <Link href={`/product/${product._id}`}>
+      <Link href={`/productDetail/${product._id}`}>
         <div className="bg-white rounded-sm overflow-hidden border border-gray-100 hover:border-gray-300 transition-all duration-500">
           {/* Image Container - LV style with monogram pattern feel */}
           <div className="relative overflow-hidden aspect-square bg-[#f8f4f0]">
